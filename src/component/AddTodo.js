@@ -48,7 +48,7 @@ class AddTodo extends Component {
 
     Axios({
       method: "POST",
-      url: "http://localhost:8080/add/item",
+      url: "http://localhost:3000/add/item",
       data: {jsonObject},
       headers: {
          "Content-Type": "application/json"
