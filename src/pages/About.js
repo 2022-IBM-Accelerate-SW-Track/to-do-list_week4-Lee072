@@ -21,7 +21,7 @@ export default class About extends Component {
             <div className="name_title">Mia Lee</div>
             <div className="brief_description">
               Hello, I am currently 20 years old and attending GCU for a B.S in computer programming.
-              I enjoy music and playing videogames.
+              I enjoy music and playing video games.
             </div>
           </div>
         </div>
