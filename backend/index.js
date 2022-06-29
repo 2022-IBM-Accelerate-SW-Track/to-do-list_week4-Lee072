@@ -1,7 +1,7 @@
 // This snippet of code is importing external modules and setting the environment variables.
 const express = require("express"),
        app = express(),
-       port = process.env.PORT || 3001,
+       port = process.env.PORT || 8080,
        cors = require("cors");
 const bodyParser = require('body-parser');
 const fs = require("fs");

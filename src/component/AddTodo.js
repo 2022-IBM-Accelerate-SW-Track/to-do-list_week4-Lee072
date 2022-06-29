@@ -48,7 +48,7 @@ class AddTodo extends Component {
 
     Axios({
       method: "POST",
-      url: "http://localhost:3001/add/item",
+      url: "http://localhost:8080/add/item",
       data: {jsonObject},
       headers: {
          "Content-Type": "application/json"
@@ -57,6 +57,7 @@ class AddTodo extends Component {
       console.log(res.data.message);
    });
 
+   
     event.preventDefault();
     if (this.state.content.trim()) {
       this.props.addTodo(this.state);
