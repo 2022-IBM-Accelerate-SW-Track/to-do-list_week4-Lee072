@@ -8,11 +8,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false --detectOpenHandles",
-    "eject": "react-scripts eject",
-    "install-backend": "cd backend && npm install",
-    "install-both": "npm install & npm run install-backend",
-    "backend": "cd backend && node index.js",
-    "start-both": "npm run backend & npm start"
+    "eject": "react-scripts eject"
+   
   },
   "author": "",
   "license": "ISC",
