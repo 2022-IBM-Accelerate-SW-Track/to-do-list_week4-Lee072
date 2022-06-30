@@ -7,7 +7,7 @@
 
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "react-scripts test --watchAll=false --detectOpenHandles",
     "eject": "react-scripts eject",
     "install-backend": "cd backend && npm install",
     "install-both": "npm install & npm run install-backend",
